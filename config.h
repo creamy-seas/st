@@ -95,23 +95,45 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-		"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
+	/* Dracula */
+	"#000000",
+	"#FF5555",
+	"#50FA7B",
+	"#F1FA8C",
+	"#BD93F9",
+	"#FF79C6",
+	"#8BE9FD",
+	"#BFBFBF",
+	"#4D4D4D",
+	"#FF6E67",
+	"#5AF78E",
+	"#F4F99D",
+	"#CAA9FA",
+	"#FF92D0",
+	"#9AEDFE",
+	"#E6E6E6",
 	[255] = 0,
+
+	/* Gruvbox */
+	/* hard contrast: #1d2021 / soft contrast: #32302f */
+	/* "#282828", */
+	/* "#cc241d", */
+	/* "#98971a", */
+	/* "#d79921", */
+	/* "#458588", */
+	/* "#b16286", */
+	/* "#689d6a", */
+	/* "#a89984", */
+	/* "#928374", */
+	/* "#fb4934", */
+	/* "#b8bb26", */
+	/* "#fabd2f", */
+	/* "#83a598", */
+	/* "#d3869b", */
+	/* "#8ec07c", */
+	/* "#ebdbb2", */
+	/* [255] = 0, */
+
 	/* 8 normal colors */
 	"black",
 	"red3",
@@ -158,7 +180,7 @@ static unsigned int defaultrcs = 257;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 4;
 
 /*
  * Default columns and rows numbers
